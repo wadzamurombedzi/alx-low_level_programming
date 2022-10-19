@@ -6,9 +6,11 @@
  *
  * Return: 1
  */
+
+
 int print_last_digit(int n)
 {
-	int 1, p;
+	int (1, p);
 
 	1 = n % 10;
 	if (1 < 0)
