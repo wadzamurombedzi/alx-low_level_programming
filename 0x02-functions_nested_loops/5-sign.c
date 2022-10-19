@@ -10,25 +10,25 @@ int main(void)
 	int r;
 
 	r = print_sign(98);
-	_punchar(',');
-	_punchar(' ');
-	_puchar(r + '0');
-	_punchar('\n');
+	_putchar(',');
+	_putchar(' ');
+	_puthar(r + '0');
+	_putchar('\n');
 	r = print_sign(0);
-	_punchar(',');
-	_punchar(' ');
-	_punchar(r + '0');
-	_punchar('\n');
+	_putchar(',');
+	_putchar(' ');
+	_putchar(r + '0');
+	_putchar('\n');
 	r = print_sign(0xff);
-	_punchar(',');
-	_punchar(' ');
-	_punchar(r + '0');
-	_punchar('\n');
+	_putchar(',');
+	_putchar(' ');
+	_putchar(r + '0');
+	_putchar('\n');
 	r = print_sign(-1);
-	_punchar(',');
-	_punchar(' ');
-	_punchar(r + '0');
-	_punchar('\n');
+	_putchar(',');
+	_putchar(' ');
+	_putchar(r + '0');
+	_putchar('\n');
 	return (0);
 }
 
