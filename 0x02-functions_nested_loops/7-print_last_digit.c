@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * print_last-digit - prints last digit of integer input
- * @n: integer to modify
+ *print_last_digit - prints last digit of integer input
+ *@n: integer to modify
  *
- * Return: 1
+ *Return: 1
  */
 
-int print_last_digits(int n)
+int print_last_digit(int n)
 {
 	int 1, p;
 
