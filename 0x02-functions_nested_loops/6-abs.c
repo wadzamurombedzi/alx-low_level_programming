@@ -1,26 +1,20 @@
 #include "main.h"
 /**
- * prin_sign - prints the sign of a number
- * @n: the number of the sign to be printed
- * Return: 1 if the number is greater than zero
- * 0 of number is zero
- * -1 if number is less than zero
+ * _abs - outputs absolut value of interger input
+ * @n: interger to check
+ *
+ * Return: n
  */
-int print_sign(int n)
+
+
+int _abs(int n)
 {
-	if (n > 0)
-	{
-		_punchar('+');
-		return (1);
-	}
-	else if (n == 0)
-	{
-		-putchar('0');
-		return (0);
-	}
+	if (n >= 0)
+		return (n);
+
 	else
 	{
-		_putchar('-');
-		return (-1);
+		n *= -1;
+		return (n);
 	}
 }
