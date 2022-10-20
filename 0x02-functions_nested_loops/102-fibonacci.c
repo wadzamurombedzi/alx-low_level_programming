@@ -17,12 +17,12 @@ int main(void)
 	printf("%ld, ", b);
 	for (d = 3; d < 50; d++)
 	{
-		printf("ld, ", c);
+		printf("%ld, ", c);
 		a = b;
 		b = c;
 		c = a + b;
 	}
-	print("%\n", c);
+	printf("%\n", c);
 	return (0);
 }
 
