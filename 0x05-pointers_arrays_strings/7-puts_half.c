@@ -15,10 +15,10 @@ void puts_half(char *str)
 	n = 0;
 	while (*(str + n))
 		n++;
-	b = n / 2;
+	c = n / 2;
 	if (n % 2)
-		b += 1;
-	while (b < n)
+		c += 1;
+	while (c < n)
 	{
 		_putchar(*(str + b));
 		b++;
