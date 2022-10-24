@@ -21,8 +21,6 @@ int main(void)
 		a = b;
 		b = c;
 		c = a + b;
-	}
-	printf("%\n", c);
 	return (0);
 }
 
