@@ -12,7 +12,7 @@ int main(void)
 
 	srand(time(NULL));
 	checksum = 2772;
-	keynumber 0;
+	keynumber = 0;
 
 	while (keynumber < (checksum - 122))
 	{
