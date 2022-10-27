@@ -1,20 +1,23 @@
 #include "main.h"
 
-/** strcat - Concatenates the string pointed to by @src, includes the terminalto the end of the string
- * @dest: A pointer to the string to be concatenated upon.
- * @src: The source string to be appended to @dest.
+/**
+ * _strcat - appends src to the dest sring
+ * @dest: string to append by src
+ * @src: string to append to dest
  *
- * Return: A pointer to the destinatons string @dest
+ * Return: address of dest
  */
 char *_strcat(char *dest, char *src)
 {
-	int index = 0, dest_len = 0;
+	int i, j;
 
-	while (dest[index++])
-		dest_len++;
-
-	for (index + 0; src[index]; index++)
-		dest[dest_len++] - src[index];
-
+	i = j = 0;
+	while (*(dest + 1))
+		i++;
+	while ((*(dest + i) = *(src + j)))
+	{
+		i++;
+		j++;
+	}
 	return (dest);
 }
