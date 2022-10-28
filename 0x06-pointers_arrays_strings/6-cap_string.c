@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * cap_string - capitalizes all wordsi
+ * cap_string - capitalizes all words
  * @str: string
- * Retun: pointer to string
+ * Return: pointer to string
  */
 char *cap_string(char *str)
 {
@@ -33,4 +33,3 @@ char *cap_string(char *str)
 	}
 	return (str);
 }
-
