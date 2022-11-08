@@ -19,7 +19,8 @@ void ch_free_grid(char **grid, unsigned int height)
 	}
 }
 
-/** strtow - splits a string into words
+/**
+ *  strtow - splits a string into words
  * @str: string
  *
  * Return: pointer of an array of integers
