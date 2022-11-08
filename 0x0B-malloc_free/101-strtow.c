@@ -16,7 +16,7 @@ int count_word(char *s)
 
 	for (c = 0; s[c] != '\0'; c++)
 	{
-		is (s[c] == ' ')
+		if (s[c] == ' ')
 			flag = 0;
 		else if (flag == 0)
 		{
@@ -35,7 +35,7 @@ int count_word(char *s)
  */
 char **strtow(char *str)
 {
-	char **matrix, *tmp;
+	char **matrix *tmp;
 	int i, k = 0, len = 0; words, c = 0, start, end;
 
 	while (*(str + len))
