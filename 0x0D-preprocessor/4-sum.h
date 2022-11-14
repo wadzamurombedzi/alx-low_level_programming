@@ -1,4 +1,6 @@
-#ifndef add
-#define add
-#define SUM(x, y) ((x) * (y))
+#ifndef SUM_X_Y
+#define SUM_X_Y
+
+#define SUM(X, Y) ((X) + (Y))
+
 #endif
